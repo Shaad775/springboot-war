@@ -10,7 +10,7 @@ import com.example.demo.model.DataClass;
 public class MainController {
 
 
-    @GetMapping
+    @GetMapping("/greet")
     public ResponseEntity<DataClass> greet()
     {
         DataClass dataClass = new DataClass();
